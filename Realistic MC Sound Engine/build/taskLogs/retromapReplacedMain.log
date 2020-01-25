@@ -1,0 +1,206 @@
+Processing 7 files
+Start Processing: com/sonicether/soundphysics/Config.java
+FOUND CONSTR method com/sonicether/soundphysics/Config/Config ()V com/sonicether/soundphysics/Config
+New Key: class net/minecraftforge/fml/client/event/ConfigChangedEvent
+Import: java.util.ArrayList
+Import: java.util.List
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.common.config.ConfigElement
+Import: net.minecraftforge.common.config.Configuration
+Import: net.minecraftforge.fml.client.config.IConfigElement
+Import: net.minecraftforge.fml.client.event.ConfigChangedEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+End  Processing: com/sonicether/soundphysics/Config.java
+
+Start Processing: com/sonicether/soundphysics/CoreModInjector.java
+Import: java.util.Iterator
+Import: java.util.ListIterator
+Import: org.objectweb.asm.ClassReader
+Import: org.objectweb.asm.ClassWriter
+Import: org.objectweb.asm.Opcodes
+Import: org.objectweb.asm.tree.AbstractInsnNode
+Import: org.objectweb.asm.tree.ClassNode
+Import: org.objectweb.asm.tree.FieldInsnNode
+Import: org.objectweb.asm.tree.InsnList
+Import: org.objectweb.asm.tree.InsnNode
+Import: org.objectweb.asm.tree.MethodInsnNode
+Import: org.objectweb.asm.tree.MethodNode
+Import: org.objectweb.asm.tree.VarInsnNode
+Import: net.minecraft.launchwrapper.IClassTransformer
+End  Processing: com/sonicether/soundphysics/CoreModInjector.java
+
+Start Processing: com/sonicether/soundphysics/CoreModLoader.java
+Import: java.util.Map
+Import: net.minecraftforge.fml.relauncher.IFMLLoadingPlugin
+Import: net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.MCVersion
+End  Processing: com/sonicether/soundphysics/CoreModLoader.java
+
+Start Processing: com/sonicether/soundphysics/ReverbParams.java
+End  Processing: com/sonicether/soundphysics/ReverbParams.java
+
+Start Processing: com/sonicether/soundphysics/SPGuiConfig.java
+FOUND CONSTR method com/sonicether/soundphysics/SPGuiConfig/SPGuiConfig (Lnet/minecraft/client/gui/GuiScreen;)V com/sonicether/soundphysics/SPGuiConfig
+Import: net.minecraft.client.gui.GuiScreen
+Import: net.minecraftforge.fml.client.config.GuiConfig
+End  Processing: com/sonicether/soundphysics/SPGuiConfig.java
+
+Start Processing: com/sonicether/soundphysics/SPGuiFactory.java
+Import: java.util.Set
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.client.gui.GuiScreen
+Import: net.minecraftforge.fml.client.IModGuiFactory
+Adding 1 imports
+        net.minecraftforge.fml.client.IModGuiFactory.RuntimeOptionCategoryElement
+End  Processing: com/sonicether/soundphysics/SPGuiFactory.java
+
+Start Processing: com/sonicether/soundphysics/SoundPhysics.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2984,2996]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/SoundEvent/getSoundName ()Lnet/minecraft/util/ResourceLocation;[7006,7018]::getSoundName->func_187503_a
+Rename method net/minecraft/util/ResourceLocation/getResourcePath ()Ljava/lang/String;[7022,7037]::getResourcePath->func_110623_a
+Rename method net/minecraft/entity/Entity/getEyeHeight ()F[7090,7102]::getEyeHeight->func_70047_e
+Rename field net/minecraft/client/Minecraft/world[7313,7318]::world->field_71441_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7327,7340]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7351,7359]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getSoundType ()Lnet/minecraft/block/SoundType;[7405,7417]::getSoundType->func_185467_w
+Rename field net/minecraft/block/SoundType/STONE[7486,7491]::STONE->field_185851_d
+Rename field net/minecraft/block/SoundType/WOOD[7586,7590]::WOOD->field_185848_a
+Rename field net/minecraft/block/SoundType/GROUND[7685,7691]::GROUND->field_185849_b
+Rename field net/minecraft/block/SoundType/PLANT[7786,7791]::PLANT->field_185850_c
+Rename field net/minecraft/block/SoundType/METAL[7886,7891]::METAL->field_185852_e
+Rename field net/minecraft/block/SoundType/GLASS[7986,7991]::GLASS->field_185853_f
+Rename field net/minecraft/block/SoundType/CLOTH[8086,8091]::CLOTH->field_185854_g
+Rename field net/minecraft/block/SoundType/SAND[8186,8190]::SAND->field_185855_h
+Rename field net/minecraft/block/SoundType/SNOW[8285,8289]::SNOW->field_185856_i
+Rename field net/minecraft/block/SoundType/LADDER[8384,8390]::LADDER->field_185857_j
+Rename field net/minecraft/block/SoundType/ANVIL[8483,8488]::ANVIL->field_185858_k
+Rename method net/minecraft/util/EnumFacing/getDirectionVec ()Lnet/minecraft/util/math/Vec3i;[8816,8831]::getDirectionVec->func_176730_m
+Rename method net/minecraft/util/math/Vec3d/dotProduct (Lnet/minecraft/util/math/Vec3d;)D[8982,8992]::dotProduct->func_72430_b
+Rename field net/minecraft/util/math/Vec3d/x[9034,9035]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/x[9064,9065]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/y[9103,9104]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/y[9133,9134]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/z[9172,9173]::z->field_72449_c
+Rename field net/minecraft/util/math/Vec3d/z[9202,9203]::z->field_72449_c
+Rename field net/minecraft/util/math/Vec3d/x[10076,10077]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/y[10126,10127]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/z[10176,10177]::z->field_72449_c
+Rename field net/minecraft/client/Minecraft/player[10999,11005]::player->field_71439_g
+Rename field net/minecraft/client/Minecraft/world[11026,11031]::world->field_71441_e
+Rename field net/minecraft/client/Minecraft/player[11801,11807]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/posX[11815,11819]::posX->field_70165_t
+Rename field net/minecraft/client/Minecraft/player[11833,11839]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/posY[11847,11851]::posY->field_70163_u
+Rename field net/minecraft/client/Minecraft/player[11866,11872]::player->field_71439_g
+Rename method net/minecraft/entity/Entity/getEyeHeight ()F[11880,11892]::getEyeHeight->func_70047_e
+Rename field net/minecraft/client/Minecraft/player[11899,11905]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/posZ[11913,11917]::posZ->field_70161_v
+Rename method net/minecraft/util/math/Vec3d/subtract (Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Vec3d;[12079,12087]::subtract->func_178788_d
+Rename method net/minecraft/util/math/Vec3d/normalize ()Lnet/minecraft/util/math/Vec3d;[12103,12112]::normalize->func_72432_b
+Rename field net/minecraft/client/Minecraft/world[12323,12328]::world->field_71441_e
+Rename method net/minecraft/world/World/rayTraceBlocks (Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Vec3d;Z)Lnet/minecraft/util/math/RayTraceResult;[12337,12351]::rayTraceBlocks->func_72901_a
+Rename field net/minecraft/client/Minecraft/world[12553,12558]::world->field_71441_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12567,12580]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/RayTraceResult/getBlockPos ()Lnet/minecraft/util/math/BlockPos;[12588,12599]::getBlockPos->func_178782_a
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12605,12613]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[12799,12811]::isOpaqueCube->func_149662_c
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[12822,12837]::getDefaultState->func_176223_P
+Rename field net/minecraft/util/math/RayTraceResult/hitVec[13176,13182]::hitVec->field_72307_f
+Rename field net/minecraft/util/math/Vec3d/x[13190,13191]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/x[13221,13222]::x->field_72450_a
+Rename field net/minecraft/util/math/RayTraceResult/hitVec[13249,13255]::hitVec->field_72307_f
+Rename field net/minecraft/util/math/Vec3d/y[13263,13264]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/y[13294,13295]::y->field_72448_b
+Rename field net/minecraft/util/math/RayTraceResult/hitVec[13328,13334]::hitVec->field_72307_f
+Rename field net/minecraft/util/math/Vec3d/z[13342,13343]::z->field_72449_c
+Rename field net/minecraft/util/math/Vec3d/z[13373,13374]::z->field_72449_c
+Rename field net/minecraft/client/Minecraft/player[13939,13945]::player->field_71439_g
+Rename method net/minecraft/entity/Entity/isInsideOfMaterial (Lnet/minecraft/block/material/Material;)Z[13953,13971]::isInsideOfMaterial->func_70055_a
+Rename field net/minecraft/block/material/Material/WATER[13975,13980]::WATER->field_151586_h
+Rename field net/minecraft/util/math/Vec3d/x[15475,15476]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/y[15499,15500]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/z[15523,15524]::z->field_72449_c
+Rename field net/minecraft/util/math/Vec3d/x[15585,15586]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/x[15608,15609]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/y[15646,15647]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/y[15669,15670]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/z[15707,15708]::z->field_72449_c
+Rename field net/minecraft/util/math/Vec3d/z[15730,15731]::z->field_72449_c
+Rename field net/minecraft/client/Minecraft/world[15848,15853]::world->field_71441_e
+Rename method net/minecraft/world/World/rayTraceBlocks (Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Vec3d;Z)Lnet/minecraft/util/math/RayTraceResult;[15862,15876]::rayTraceBlocks->func_72901_a
+Rename method net/minecraft/util/math/Vec3d/distanceTo (Lnet/minecraft/util/math/Vec3d;)D[16024,16034]::distanceTo->func_72438_d
+Rename field net/minecraft/util/math/RayTraceResult/hitVec[16044,16050]::hitVec->field_72307_f
+Rename method net/minecraft/util/math/RayTraceResult/getBlockPos ()Lnet/minecraft/util/math/BlockPos;[16157,16168]::getBlockPos->func_178782_a
+Rename field net/minecraft/util/math/RayTraceResult/hitVec[16205,16211]::hitVec->field_72307_f
+Rename field net/minecraft/util/math/RayTraceResult/sideHit[16274,16281]::sideHit->field_178784_b
+Rename field net/minecraft/util/math/Vec3d/x[16638,16639]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/x[16668,16669]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/y[16701,16702]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/y[16731,16732]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/z[16764,16765]::z->field_72449_c
+Rename field net/minecraft/util/math/Vec3d/z[16794,16795]::z->field_72449_c
+Rename field net/minecraft/util/math/Vec3d/x[16869,16870]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/x[16895,16896]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/y[16936,16937]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/y[16962,16963]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/z[17003,17004]::z->field_72449_c
+Rename field net/minecraft/util/math/Vec3d/z[17029,17030]::z->field_72449_c
+Rename field net/minecraft/client/Minecraft/world[17103,17108]::world->field_71441_e
+Rename method net/minecraft/world/World/rayTraceBlocks (Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Vec3d;Z)Lnet/minecraft/util/math/RayTraceResult;[17117,17131]::rayTraceBlocks->func_72901_a
+Rename method net/minecraft/util/math/Vec3d/distanceTo (Lnet/minecraft/util/math/Vec3d;)D[17484,17494]::distanceTo->func_72438_d
+Rename method net/minecraft/util/math/Vec3d/distanceTo (Lnet/minecraft/util/math/Vec3d;)D[17570,17580]::distanceTo->func_72438_d
+Rename field net/minecraft/util/math/RayTraceResult/hitVec[17593,17599]::hitVec->field_72307_f
+Rename field net/minecraft/util/math/RayTraceResult/hitVec[17952,17958]::hitVec->field_72307_f
+Rename field net/minecraft/util/math/RayTraceResult/sideHit[18020,18027]::sideHit->field_178784_b
+Rename method net/minecraft/util/math/RayTraceResult/getBlockPos ()Lnet/minecraft/util/math/BlockPos;[18100,18111]::getBlockPos->func_178782_a
+Rename field net/minecraft/util/math/Vec3d/x[18413,18414]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/x[18443,18444]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/y[18486,18487]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/y[18516,18517]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/z[18549,18550]::z->field_72449_c
+Rename field net/minecraft/util/math/Vec3d/z[18579,18580]::z->field_72449_c
+Rename field net/minecraft/client/Minecraft/world[18650,18655]::world->field_71441_e
+Rename method net/minecraft/world/World/rayTraceBlocks (Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Vec3d;Z)Lnet/minecraft/util/math/RayTraceResult;[18664,18678]::rayTraceBlocks->func_72901_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[19111,19116]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[19216,19221]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[19321,19326]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[19419,19424]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[20518,20523]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[20618,20623]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[20718,20723]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[20818,20823]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[22124,22129]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[22187,22192]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[22250,22255]::clamp->func_76131_a
+Rename method net/minecraft/util/math/MathHelper/clamp (FFF)F[22329,22334]::clamp->func_76131_a
+Rename field net/minecraft/client/Minecraft/player[22604,22610]::player->field_71439_g
+Rename method net/minecraft/entity/Entity/isInWater ()Z[22618,22627]::isInWater->func_70090_H
+Import: java.util.regex.Pattern
+Adding 22 imports
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.client.Minecraft
+        net.minecraft.entity.Entity
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.SoundCategory
+        net.minecraft.util.SoundEvent
+        net.minecraft.util.math.BlockPos
+        net.minecraft.util.math.MathHelper
+        net.minecraft.util.math.RayTraceResult
+        net.minecraft.util.math.Vec3d
+        net.minecraftforge.fml.common.Mod
+        net.minecraftforge.fml.common.event.FMLInitializationEvent
+        net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+        org.lwjgl.openal.AL10
+        org.lwjgl.openal.AL11
+        org.lwjgl.openal.ALC10
+        org.lwjgl.openal.ALCcontext
+        org.lwjgl.openal.ALCdevice
+        org.lwjgl.openal.EFX10
+        paulscode.sound.SoundSystemConfig
+End  Processing: com/sonicether/soundphysics/SoundPhysics.java
+

@@ -1,0 +1,25 @@
+Unsupposrted library path: C:\Users\ChuckeyTheBear\Documents\Sound-Physics-master\build\classes\api
+Unsupposrted library path: C:\Users\ChuckeyTheBear\Documents\Sound-Physics-master\build\resources\api
+Symbol range map extraction starting
+Processing 7 files
+startProcessing "com/sonicether/soundphysics/Config.java" md5: 41f988c4d29601ce15739b4c219f22ee
+endProcessing "com/sonicether/soundphysics/Config.java"
+
+startProcessing "com/sonicether/soundphysics/CoreModInjector.java" md5: 7fef1b49ad11000a6987d8ced8db4c6f
+endProcessing "com/sonicether/soundphysics/CoreModInjector.java"
+
+startProcessing "com/sonicether/soundphysics/CoreModLoader.java" md5: dd25c6ee34db647ddd93cd301d06395b
+endProcessing "com/sonicether/soundphysics/CoreModLoader.java"
+
+startProcessing "com/sonicether/soundphysics/ReverbParams.java" md5: f209ad712571c5663ad56d0bae33837b
+endProcessing "com/sonicether/soundphysics/ReverbParams.java"
+
+startProcessing "com/sonicether/soundphysics/SPGuiConfig.java" md5: 8c3218b7e0102bd7a5cca5f107c3a636
+endProcessing "com/sonicether/soundphysics/SPGuiConfig.java"
+
+startProcessing "com/sonicether/soundphysics/SPGuiFactory.java" md5: 83d8b9f40de84e7cbb7358e41323e2e7
+endProcessing "com/sonicether/soundphysics/SPGuiFactory.java"
+
+startProcessing "com/sonicether/soundphysics/SoundPhysics.java" md5: 90e561b2112e03213c560118f472bb14
+endProcessing "com/sonicether/soundphysics/SoundPhysics.java"
+

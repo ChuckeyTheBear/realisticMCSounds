@@ -1,0 +1,11 @@
+[
+{
+  "modid": "soundphysics",
+  "name": "Realistic MC Sound Physics",
+  "description": "Impliments a realistic sound engine in minecraft with features such as occlusion, attenuation, and proper underwater sound filtering.",
+  "version": "0.0.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "authorList": ["ChuckeyTheBear"]
+}
+]
